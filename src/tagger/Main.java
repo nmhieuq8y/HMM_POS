@@ -9,18 +9,20 @@ import tagger.algo.ViterbiHmm;
 public class Main {
 
     public static void main(String[] args) {
-    	GeniaData a = new GeniaData();
-    	long startTime = System.currentTimeMillis();
+    	/*GeniaData a = new GeniaData();
+    	long startTime = System.currentTimeMillis();*/
     	/*File folder = new File("D:\\Data\\Searching\\study\\Trainset-POS-1\\Trainset-POS-1");*/
         /*a.sumAllFilesForFolder(folder);*/
-    	a.driveSumFile();
+    	/*a.driveSumFile();*/
     	
-		HmmModel hmmModel = new HmmModel();
-		hmmModel.run();
+		/*HmmModel hmmModel = new HmmModel();
+		hmmModel.run();*/
 		
     	ViterbiHmm viterbiHmm = new ViterbiHmm();
-    	viterbiHmm.run();
+    	/*viterbiHmm.run();
     	long endTime   = System.currentTimeMillis();
-    	System.out.println(endTime - startTime);
+    	System.out.println(endTime - startTime);*/
+    	viterbiHmm.runConsole();
+    	
     }
 }
